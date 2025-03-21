@@ -1,5 +1,6 @@
 # argtechs
 
 - lataa papyrus
-- git clone tämä repo workspace-papyrus hakemistoon (.metadata-hakemiston viereen) (En tiedä tarviiko repon oikeasti olla täälä btw)
+- git clone tämä repo
+- avaa papyrus, ja valitse workspaceksi workspace-papyrus-argtechs
 - profit? (toivottavasti)
