@@ -329,4 +329,68 @@
     <packagedElement xmi:type="uml:Dependency" xmi:id="_sbgwMBiUEfCwG5rO7r4AjA" name="process payment" client="_ko_U8AZSEfC1N-_hGzGCPQ" supplier="_x3I28BiKEfCwG5rO7r4AjA"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_-hfBoBiVEfCwG5rO7r4AjA" name="dispatch courier" client="_3t1aABiJEfCwG5rO7r4AjA" supplier="_6XibcBhuEfCwG5rO7r4AjA"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_kMGjMBpfEfCtmK4gFCUo5g" name="DevelopmentView">
+    <packagedElement xmi:type="uml:Component" xmi:id="_GqVR8BpgEfCtmK4gFCUo5g" name="Courier App">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_wSkjwBp1EfC_KN2oyanfEg" client="_GqVR8BpgEfCtmK4gFCUo5g" supplier="_zt1mMBp0EfC_KN2oyanfEg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_-i_f8Bp2EfC_KN2oyanfEg" client="_GqVR8BpgEfCtmK4gFCUo5g" supplier="_8E2DgBprEfCtmK4gFCUo5g"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_vX-R0Bp3EfC_KN2oyanfEg" client="_GqVR8BpgEfCtmK4gFCUo5g" supplier="_0p-NYBprEfCtmK4gFCUo5g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_MfV2IBpjEfCtmK4gFCUo5g" name="Restaurant UI">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_zw32oBp1EfC_KN2oyanfEg" client="_MfV2IBpjEfCtmK4gFCUo5g" supplier="_zt1mMBp0EfC_KN2oyanfEg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_IFg0gBp2EfC_KN2oyanfEg" client="_MfV2IBpjEfCtmK4gFCUo5g" supplier="_wrtBABprEfCtmK4gFCUo5g"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_YLaroBp3EfC_KN2oyanfEg" client="_MfV2IBpjEfCtmK4gFCUo5g" supplier="_Ua9RwBp3EfC_KN2oyanfEg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_z8UW0BpjEfCtmK4gFCUo5g" name="Customer UI">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_-VhhIBp1EfC_KN2oyanfEg" client="_z8UW0BpjEfCtmK4gFCUo5g" supplier="_zt1mMBp0EfC_KN2oyanfEg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_hLlEkBp3EfC_KN2oyanfEg" client="_z8UW0BpjEfCtmK4gFCUo5g" supplier="_uoYeYBprEfCtmK4gFCUo5g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_EZIHgBpkEfCtmK4gFCUo5g" name="Notification Service">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_whrSkBp8EfC_KN2oyanfEg" client="_EZIHgBpkEfCtmK4gFCUo5g" supplier="_I4kP0Bp7EfC_KN2oyanfEg" contract="_I4kP0Bp7EfC_KN2oyanfEg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_Pz9CsBp9EfC_KN2oyanfEg" client="_EZIHgBpkEfCtmK4gFCUo5g" supplier="_MfV2IBpjEfCtmK4gFCUo5g"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_Y91_YBp9EfC_KN2oyanfEg" client="_EZIHgBpkEfCtmK4gFCUo5g" supplier="_GqVR8BpgEfCtmK4gFCUo5g"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_bnT0oBqAEfC_KN2oyanfEg" client="_EZIHgBpkEfCtmK4gFCUo5g" supplier="_z8UW0BpjEfCtmK4gFCUo5g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_nqJL0BppEfCtmK4gFCUo5g" name="Auth Service">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_-5HL0Bp0EfC_KN2oyanfEg" client="_nqJL0BppEfCtmK4gFCUo5g" supplier="_zt1mMBp0EfC_KN2oyanfEg" contract="_zt1mMBp0EfC_KN2oyanfEg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_jiiuMBpyEfCtmK4gFCUo5g" client="_nqJL0BppEfCtmK4gFCUo5g" supplier="_jgDCkBpsEfCtmK4gFCUo5g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_uoYeYBprEfCtmK4gFCUo5g" name="Customer Food Ordering">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_k7MJ4Bp3EfC_KN2oyanfEg" client="_uoYeYBprEfCtmK4gFCUo5g" supplier="_DolhwBpsEfCtmK4gFCUo5g"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_rVodwBp3EfC_KN2oyanfEg" client="_uoYeYBprEfCtmK4gFCUo5g" supplier="_I4O2cBpsEfCtmK4gFCUo5g"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_4-B7MBp5EfC_KN2oyanfEg" client="_uoYeYBprEfCtmK4gFCUo5g" supplier="_4vFooBprEfCtmK4gFCUo5g"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_6RNS8Bp8EfC_KN2oyanfEg" client="_uoYeYBprEfCtmK4gFCUo5g" supplier="_I4kP0Bp7EfC_KN2oyanfEg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_wrtBABprEfCtmK4gFCUo5g" name="Restaurant Order Management">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_BE2jQBp4EfC_KN2oyanfEg" client="_wrtBABprEfCtmK4gFCUo5g" supplier="_DolhwBpsEfCtmK4gFCUo5g"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_-kqFIBp8EfC_KN2oyanfEg" client="_wrtBABprEfCtmK4gFCUo5g" supplier="_I4kP0Bp7EfC_KN2oyanfEg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_0p-NYBprEfCtmK4gFCUo5g" name="Courier Delivery Management">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_RQ1psBp4EfC_KN2oyanfEg" client="_0p-NYBprEfCtmK4gFCUo5g" supplier="_DolhwBpsEfCtmK4gFCUo5g"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_bAaGUBp4EfC_KN2oyanfEg" client="_0p-NYBprEfCtmK4gFCUo5g" supplier="_dDo_0BpsEfCtmK4gFCUo5g"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_Du2SEBp9EfC_KN2oyanfEg" client="_0p-NYBprEfCtmK4gFCUo5g" supplier="_I4kP0Bp7EfC_KN2oyanfEg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_4vFooBprEfCtmK4gFCUo5g" name="Order Tracking">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_odcvsBp3EfC_KN2oyanfEg" client="_4vFooBprEfCtmK4gFCUo5g" supplier="_dDo_0BpsEfCtmK4gFCUo5g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_8E2DgBprEfCtmK4gFCUo5g" name="Courier Statistics">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_iP5dwBp2EfC_KN2oyanfEg" client="_8E2DgBprEfCtmK4gFCUo5g" supplier="_HfVw4BpsEfCtmK4gFCUo5g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_-NLB8BprEfCtmK4gFCUo5g" name="Business Statistics">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_jnWuABp4EfC_KN2oyanfEg" client="_-NLB8BprEfCtmK4gFCUo5g" supplier="_HfVw4BpsEfCtmK4gFCUo5g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_DolhwBpsEfCtmK4gFCUo5g" name="Order Database"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_HfVw4BpsEfCtmK4gFCUo5g" name="Business Database"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_I4O2cBpsEfCtmK4gFCUo5g" name="Payment Service"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_dDo_0BpsEfCtmK4gFCUo5g" name="Map and Routing Service "/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_jgDCkBpsEfCtmK4gFCUo5g" name="Strong Authentication Provider"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_zt1mMBp0EfC_KN2oyanfEg" name="IAuthService"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_Ua9RwBp3EfC_KN2oyanfEg" name="Menu Management">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_ZXIQ0Bp3EfC_KN2oyanfEg" client="_Ua9RwBp3EfC_KN2oyanfEg" supplier="_HfVw4BpsEfCtmK4gFCUo5g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_I4kP0Bp7EfC_KN2oyanfEg" name="INotificationService"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_MopH0Bp-EfC_KN2oyanfEg" name="Operator UI">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_RkKmoBp-EfC_KN2oyanfEg" client="_MopH0Bp-EfC_KN2oyanfEg" supplier="_zt1mMBp0EfC_KN2oyanfEg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_ZtDZUBp-EfC_KN2oyanfEg" client="_MopH0Bp-EfC_KN2oyanfEg" supplier="_-NLB8BprEfCtmK4gFCUo5g"/>
+    </packagedElement>
+  </packagedElement>
 </uml:Model>
