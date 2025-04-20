@@ -484,6 +484,81 @@
         <message xmi:type="uml:Message" xmi:id="_QgkKwBwiEfCTfNUqnApa9Q" name="Message49" messageSort="asynchCall" receiveEvent="_QglY4RwiEfCTfNUqnApa9Q" sendEvent="_QglY4BwiEfCTfNUqnApa9Q" signature="_YJY9UBwiEfCTfNUqnApa9Q"/>
       </packagedElement>
     </packagedElement>
+	<packagedElement xmi:type="uml:Package" xmi:id="_JJujkBrDEfC7Q48Dm7ny1g" name="PhysicalView">
+      <packagedElement xmi:type="uml:Device" xmi:id="__rJR0BrZEfC7Q48Dm7ny1g" name="Payment provider server (external)"/>
+      <packagedElement xmi:type="uml:Device" xmi:id="_EEkJIBraEfC7Q48Dm7ny1g" name="Customer device"/>
+      <packagedElement xmi:type="uml:Device" xmi:id="_F1nQABraEfC7Q48Dm7ny1g" name="Restaurant device"/>
+      <packagedElement xmi:type="uml:Device" xmi:id="_G7Vh8BraEfC7Q48Dm7ny1g" name="IoT food bag"/>
+      <packagedElement xmi:type="uml:Device" xmi:id="_KBQxEBraEfC7Q48Dm7ny1g" name="Courier device"/>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_O_SxUBraEfC7Q48Dm7ny1g" memberEnd="_O_ZfARraEfC7Q48Dm7ny1g _O_aGEBraEfC7Q48Dm7ny1g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O_Y38BraEfC7Q48Dm7ny1g" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O_ZfABraEfC7Q48Dm7ny1g" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_O_ZfARraEfC7Q48Dm7ny1g" name="iot food bag" type="_G7Vh8BraEfC7Q48Dm7ny1g" association="_O_SxUBraEfC7Q48Dm7ny1g"/>
+       <ownedEnd xmi:type="uml:Property" xmi:id="_O_aGEBraEfC7Q48Dm7ny1g" name="courier device" type="_KBQxEBraEfC7Q48Dm7ny1g" association="_O_SxUBraEfC7Q48Dm7ny1g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Device" xmi:id="_RvYTUBraEfC7Q48Dm7ny1g" name="Map/route provider server (external)"/>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_YdNdQBraEfC7Q48Dm7ny1g" memberEnd="_YdOEUhraEfC7Q48Dm7ny1g _YdOEUxraEfC7Q48Dm7ny1g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YdOEUBraEfC7Q48Dm7ny1g" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YdOEURraEfC7Q48Dm7ny1g" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_YdOEUhraEfC7Q48Dm7ny1g" name="map/route provider server (external)" type="_RvYTUBraEfC7Q48Dm7ny1g" association="_YdNdQBraEfC7Q48Dm7ny1g"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_YdOEUxraEfC7Q48Dm7ny1g" name="courier device" type="_KBQxEBraEfC7Q48Dm7ny1g" association="_YdNdQBraEfC7Q48Dm7ny1g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_b9Ju4BraEfC7Q48Dm7ny1g" memberEnd="_b9KV8hraEfC7Q48Dm7ny1g _b9K9ABraEfC7Q48Dm7ny1g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b9KV8BraEfC7Q48Dm7ny1g" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_b9KV8RraEfC7Q48Dm7ny1g" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_b9KV8hraEfC7Q48Dm7ny1g" name="payment provider server (external)" type="__rJR0BrZEfC7Q48Dm7ny1g" association="_b9Ju4BraEfC7Q48Dm7ny1g"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_b9K9ABraEfC7Q48Dm7ny1g" name="customer device" type="_EEkJIBraEfC7Q48Dm7ny1g" association="_b9Ju4BraEfC7Q48Dm7ny1g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Device" xmi:id="_eaNAIBraEfC7Q48Dm7ny1g" name="Authentication provider server (external)"/>
+      <packagedElement xmi:type="uml:Device" xmi:id="_iUK7UBraEfC7Q48Dm7ny1g" name="F-LOW (BREAK THIS UP MORE)"/>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_sDrtkBraEfC7Q48Dm7ny1g" memberEnd="_sDsUoRraEfC7Q48Dm7ny1g _sDs7sBraEfC7Q48Dm7ny1g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sDrtkRraEfC7Q48Dm7ny1g" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sDsUoBraEfC7Q48Dm7ny1g" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_sDsUoRraEfC7Q48Dm7ny1g" name="customer device" type="_EEkJIBraEfC7Q48Dm7ny1g" association="_sDrtkBraEfC7Q48Dm7ny1g"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_sDs7sBraEfC7Q48Dm7ny1g" name="map/route provider server (external)" type="_RvYTUBraEfC7Q48Dm7ny1g" association="_sDrtkBraEfC7Q48Dm7ny1g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_t0tmUBraEfC7Q48Dm7ny1g" memberEnd="_t0u0cBraEfC7Q48Dm7ny1g _t0u0cRraEfC7Q48Dm7ny1g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t0uNYBraEfC7Q48Dm7ny1g" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t0uNYRraEfC7Q48Dm7ny1g" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_t0u0cBraEfC7Q48Dm7ny1g" name="customer device" type="_EEkJIBraEfC7Q48Dm7ny1g" association="_t0tmUBraEfC7Q48Dm7ny1g"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_t0u0cRraEfC7Q48Dm7ny1g" name="f-low (break this up more)" type="_iUK7UBraEfC7Q48Dm7ny1g" association="_t0tmUBraEfC7Q48Dm7ny1g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_wuWs8BraEfC7Q48Dm7ny1g" memberEnd="_wuX7ERraEfC7Q48Dm7ny1g _wuX7EhraEfC7Q48Dm7ny1g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wuXUABraEfC7Q48Dm7ny1g" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wuX7EBraEfC7Q48Dm7ny1g" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_wuX7ERraEfC7Q48Dm7ny1g" name="f-low (break this up more)" type="_iUK7UBraEfC7Q48Dm7ny1g" association="_wuWs8BraEfC7Q48Dm7ny1g"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_wuX7EhraEfC7Q48Dm7ny1g" name="courier device" type="_KBQxEBraEfC7Q48Dm7ny1g" association="_wuWs8BraEfC7Q48Dm7ny1g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_0XUXsBraEfC7Q48Dm7ny1g" memberEnd="_0XVl0hraEfC7Q48Dm7ny1g _0XWM4BraEfC7Q48Dm7ny1g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0XVl0BraEfC7Q48Dm7ny1g" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0XVl0RraEfC7Q48Dm7ny1g" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_0XVl0hraEfC7Q48Dm7ny1g" name="f-low (break this up more)" type="_iUK7UBraEfC7Q48Dm7ny1g" association="_0XUXsBraEfC7Q48Dm7ny1g"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_0XWM4BraEfC7Q48Dm7ny1g" name="restaurant device" type="_F1nQABraEfC7Q48Dm7ny1g" association="_0XUXsBraEfC7Q48Dm7ny1g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_4-f-MBraEfC7Q48Dm7ny1g" memberEnd="_4-hMUBraEfC7Q48Dm7ny1g _4-hMURraEfC7Q48Dm7ny1g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4-glQBraEfC7Q48Dm7ny1g" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4-glQRraEfC7Q48Dm7ny1g" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_4-hMUBraEfC7Q48Dm7ny1g" name="authentication provider server (external)" type="_eaNAIBraEfC7Q48Dm7ny1g" association="_4-f-MBraEfC7Q48Dm7ny1g"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_4-hMURraEfC7Q48Dm7ny1g" name="customer device" type="_EEkJIBraEfC7Q48Dm7ny1g" association="_4-f-MBraEfC7Q48Dm7ny1g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_55XrABraEfC7Q48Dm7ny1g" memberEnd="_55YSEBraEfC7Q48Dm7ny1g _55YSERraEfC7Q48Dm7ny1g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_55XrARraEfC7Q48Dm7ny1g" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_55XrAhraEfC7Q48Dm7ny1g" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_55YSEBraEfC7Q48Dm7ny1g" name="f-low (break this up more)" type="_iUK7UBraEfC7Q48Dm7ny1g" association="_55XrABraEfC7Q48Dm7ny1g"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_55YSERraEfC7Q48Dm7ny1g" name="authentication provider server (external)" type="_eaNAIBraEfC7Q48Dm7ny1g" association="_55XrABraEfC7Q48Dm7ny1g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Device" xmi:id="__ov2YBrfEfC7Q48Dm7ny1g" name="F-LOW ORDERS"/>
+      <packagedElement xmi:type="uml:Device" xmi:id="_FPSoIBrgEfC7Q48Dm7ny1g" name="F-LOW MENUS"/>
+	</packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ntRlUBxLEfCfzatNm8B7Fg" name="NotificationService"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_PyMPwBxMEfCfzatNm8B7Fg" name="get order updates" client="_ntRlUBxLEfCfzatNm8B7Fg" supplier="_ko_U8AZSEfC1N-_hGzGCPQ"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_j9gSgBxMEfCfzatNm8B7Fg" name="AuthService"/>
