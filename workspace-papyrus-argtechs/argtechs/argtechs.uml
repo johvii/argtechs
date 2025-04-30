@@ -416,6 +416,18 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_GvK7cBwdEfCTfNUqnApa9Q" name="ProcessView">
       <packagedElement xmi:type="uml:Interaction" xmi:id="_oduMQCWKEfC1Zoy1CmEInw" name="Use case: customer food ordering">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_x0rTkCWVEfC1Zoy1CmEInw">
+          <body>Optional restrautant estimate for order completion&#xD;
+</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_5zpVQCWVEfC1Zoy1CmEInw">
+          <body>Restaurant rejects placed order&#xD;
+</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_FSjBgCWWEfC1Zoy1CmEInw">
+          <body>Payment failure stops the process&#xD;
+</body>
+        </ownedComment>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_AKAbYCWLEfC1Zoy1CmEInw" type="_z8UW0BpjEfCtmK4gFCUo5g"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_KeaDYCWLEfC1Zoy1CmEInw" type="_wrtBABprEfCtmK4gFCUo5g"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_OoNKUCWLEfC1Zoy1CmEInw" type="_I4O2cBpsEfCtmK4gFCUo5g"/>
@@ -508,7 +520,7 @@
         <message xmi:type="uml:Message" xmi:id="_340EcSWOEfC1Zoy1CmEInw"/>
         <message xmi:type="uml:Message" xmi:id="_6WBtwCWOEfC1Zoy1CmEInw" name="Provide estimate" messageSort="asynchCall" receiveEvent="_6WC74CWOEfC1Zoy1CmEInw" sendEvent="_6WCU0CWOEfC1Zoy1CmEInw"/>
         <message xmi:type="uml:Message" xmi:id="_71n4QCWOEfC1Zoy1CmEInw" name="Notify of estimate" messageSort="asynchCall" receiveEvent="_71pGYCWOEfC1Zoy1CmEInw" sendEvent="_71n4QSWOEfC1Zoy1CmEInw"/>
-        <message xmi:type="uml:Message" xmi:id="_-JhNgCWOEfC1Zoy1CmEInw" name="Dispatch estiamte" messageSort="asynchCall" receiveEvent="_-JiboSWOEfC1Zoy1CmEInw" sendEvent="_-JiboCWOEfC1Zoy1CmEInw"/>
+        <message xmi:type="uml:Message" xmi:id="_-JhNgCWOEfC1Zoy1CmEInw" name="Dispatch estimate" messageSort="asynchCall" receiveEvent="_-JiboSWOEfC1Zoy1CmEInw" sendEvent="_-JiboCWOEfC1Zoy1CmEInw"/>
         <message xmi:type="uml:Message" xmi:id="_G3V5QCWPEfC1Zoy1CmEInw" name="Accept order delivery" messageSort="asynchCall" receiveEvent="_G3WgUSWPEfC1Zoy1CmEInw" sendEvent="_G3WgUCWPEfC1Zoy1CmEInw"/>
         <message xmi:type="uml:Message" xmi:id="_JZcCkCWPEfC1Zoy1CmEInw" name="Mark as delivered" messageSort="asynchCall" receiveEvent="_JZdQsSWPEfC1Zoy1CmEInw" sendEvent="_JZdQsCWPEfC1Zoy1CmEInw"/>
         <message xmi:type="uml:Message" xmi:id="_KfxYgCWPEfC1Zoy1CmEInw" name="Marked" messageSort="reply" receiveEvent="_KfzNsCWPEfC1Zoy1CmEInw" sendEvent="_Kfx_kCWPEfC1Zoy1CmEInw"/>

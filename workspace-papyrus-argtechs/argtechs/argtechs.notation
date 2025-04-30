@@ -2377,6 +2377,21 @@
           <element xmi:type="uml:Lifeline" href="argtechs.uml#_3tVCoCWNEfC1Zoy1CmEInw"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3tZUESWNEfC1Zoy1CmEInw" x="1094" y="10" width="141" height="1202"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_x01EkCWVEfC1Zoy1CmEInw" type="Comment_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_x01EkiWVEfC1Zoy1CmEInw" type="Comment_BodyLabel"/>
+          <element xmi:type="uml:Comment" href="argtechs.uml#_x0rTkCWVEfC1Zoy1CmEInw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x01EkSWVEfC1Zoy1CmEInw" x="994" y="511" width="200"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_5zyfMCWVEfC1Zoy1CmEInw" type="Comment_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_5zyfMiWVEfC1Zoy1CmEInw" type="Comment_BodyLabel"/>
+          <element xmi:type="uml:Comment" href="argtechs.uml#_5zpVQCWVEfC1Zoy1CmEInw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5zyfMSWVEfC1Zoy1CmEInw" x="994" y="831" width="200"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_FSsygCWWEfC1Zoy1CmEInw" type="Comment_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_FSsygiWWEfC1Zoy1CmEInw" type="Comment_BodyLabel"/>
+          <element xmi:type="uml:Comment" href="argtechs.uml#_FSjBgCWWEfC1Zoy1CmEInw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FSsygSWWEfC1Zoy1CmEInw" x="994" y="1111" width="200"/>
+        </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pOuydCWKEfC1Zoy1CmEInw"/>
       </children>
       <element xmi:type="uml:Interaction" href="argtechs.uml#_oduMQCWKEfC1Zoy1CmEInw"/>
