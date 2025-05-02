@@ -2395,8 +2395,8 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_jD_nISWNEfC1Zoy1CmEInw"/>
       <element xmi:type="uml:Message" href="argtechs.uml#_jD6HkCWNEfC1Zoy1CmEInw"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jD_nIiWNEfC1Zoy1CmEInw" points="[0, 0, 210, 0]$[-210, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jENCgCWNEfC1Zoy1CmEInw" id="(0.5,0.13394342762063227)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jENpkCWNEfC1Zoy1CmEInw" id="(0.5,0.13394342762063227)"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jENCgCWNEfC1Zoy1CmEInw" id="(0.5,0.11730449251247921)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jENpkCWNEfC1Zoy1CmEInw" id="(0.5,0.11730449251247921)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_mLyegCWNEfC1Zoy1CmEInw" type="Message_AsynchEdge" source="_E_MosSWLEfC1Zoy1CmEInw" target="_PtU_UCWLEfC1Zoy1CmEInw">
       <children xmi:type="notation:DecorationNode" xmi:id="_mLyegyWNEfC1Zoy1CmEInw" type="Message_AsynchNameLabel">
