@@ -351,11 +351,8 @@
         </ownedOperation>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_UC7PQCGpEfCEKpDVEtW2Aw" name="make food order" client="_z8UW0BpjEfCtmK4gFCUo5g" supplier="_wrtBABprEfCtmK4gFCUo5g"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Component" xmi:id="_EZIHgBpkEfCtmK4gFCUo5g" name="Notification Service">
-        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_dDNEUCGmEfCEKpDVEtW2Aw" client="_EZIHgBpkEfCtmK4gFCUo5g" supplier="_I4kP0Bp7EfC_KN2oyanfEg" contract="_I4kP0Bp7EfC_KN2oyanfEg"/>
-      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_EZIHgBpkEfCtmK4gFCUo5g" name="Notification Service"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_nqJL0BppEfCtmK4gFCUo5g" name="Auth Service">
-        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_zfY9gCGmEfCEKpDVEtW2Aw" client="_nqJL0BppEfCtmK4gFCUo5g" supplier="_zt1mMBp0EfC_KN2oyanfEg" contract="_zt1mMBp0EfC_KN2oyanfEg"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_jiiuMBpyEfCtmK4gFCUo5g" name="authenticate user" client="_nqJL0BppEfCtmK4gFCUo5g" supplier="_jgDCkBpsEfCtmK4gFCUo5g"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_wrtBABprEfCtmK4gFCUo5g" name="OrderController">
@@ -396,25 +393,11 @@
         <packagedElement xmi:type="uml:Dependency" xmi:id="_fEb-kCKeEfC6RvaOqzPpOQ" name="update menu data" client="_Ua9RwBp3EfC_KN2oyanfEg" supplier="_DolhwBpsEfCtmK4gFCUo5g"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_WxR_0CGREfCEKpDVEtW2Aw" name="User Interface" visibility="private">
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_oMp6cCGlEfCEKpDVEtW2Aw" name="NotificationPort" type="_I4kP0Bp7EfC_KN2oyanfEg" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_i-_tUCGmEfCEKpDVEtW2Aw" name="AuthPort" type="_zt1mMBp0EfC_KN2oyanfEg" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_oMp6cCGlEfCEKpDVEtW2Aw" name="NotificationPort" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_i-_tUCGmEfCEKpDVEtW2Aw" name="AuthPort" aggregation="composite"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_YKE6kCGYEfCEKpDVEtW2Aw" name="Core Services" visibility="public"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_I4kP0Bp7EfC_KN2oyanfEg" name="INotificationService">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_U_0ZwBwhEfCTfNUqnApa9Q"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_-d6doBwhEfCTfNUqnApa9Q" name="createNotification">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_-d6doRwhEfCTfNUqnApa9Q" name="customerId">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-          </ownedParameter>
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_-d6dohwhEfCTfNUqnApa9Q" name="message">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedParameter>
-        </ownedOperation>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_zt1mMBp0EfC_KN2oyanfEg" name="IAuthService"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_Cu_IoCGxEfCEKpDVEtW2Aw" name="IoT Food Bag"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_Dzl10CKZEfC6RvaOqzPpOQ" name="receive notification" client="_oMp6cCGlEfCEKpDVEtW2Aw" supplier="_I4kP0Bp7EfC_KN2oyanfEg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_OcGsoCKZEfC6RvaOqzPpOQ" name="authenticate and authorize" client="_i-_tUCGmEfCEKpDVEtW2Aw" supplier="_zt1mMBp0EfC_KN2oyanfEg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_GvK7cBwdEfCTfNUqnApa9Q" name="ProcessView">
       <packagedElement xmi:type="uml:Interaction" xmi:id="_oduMQCWKEfC1Zoy1CmEInw" name="Use case: customer food ordering">
@@ -539,29 +522,8 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_JJujkBrDEfC7Q48Dm7ny1g" name="PhysicalView">
-      <ownedComment xmi:type="uml:Comment" xmi:id="_cENpUCGiEfCUyqCgsEyhnw">
-        <body>??</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_fFC9ECGiEfCUyqCgsEyhnw">
-        <body>??</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_wTp-ICGiEfCUyqCgsEyhnw">
-        <body>??</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_xpwOYCGiEfCUyqCgsEyhnw">
-        <body>??</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_-GQLUCGiEfCUyqCgsEyhnw">
-        <body>??</body>
-      </ownedComment>
       <ownedComment xmi:type="uml:Comment" xmi:id="_EDCS0CGjEfCUyqCgsEyhnw">
         <body>Basically the same structure as the restaurant , but abbreviated here to save space</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_jFHmoCGqEfCUyqCgsEyhnw">
-        <body>Kuuluvatko interfacet deployment-diagrammiin? (Ehkä ei, koska eivät ole komponentti?)</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_ID7-oCGyEfCUyqCgsEyhnw">
-        <body>TEE INTRODUCTION KAPPALE DOKUMENTTIIN</body>
       </ownedComment>
       <ownedComment xmi:type="uml:Comment" xmi:id="_clNigCcREfCPzLSMst3XLw">
         <body>No OS is necessarily needed. The software could be built to run without one, which might reduce the hardware requirements for Food Bag manifacturing.</body>
@@ -569,7 +531,7 @@
       <ownedComment xmi:type="uml:Comment" xmi:id="_qcSNwCcWEfCPzLSMst3XLw">
         <body>Basically the same structure as the restaurant , but abbreviated here to save space</body>
       </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_8QNE4CciEfCPzLSMst3XLw">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_UgQucCcuEfCPzLSMst3XLw">
         <body>Basically the same structure as the restaurant , but abbreviated here to save space</body>
       </ownedComment>
       <packagedElement xmi:type="uml:Device" xmi:id="__rJR0BrZEfC7Q48Dm7ny1g" name="Payment provider server (external)">
