@@ -741,6 +741,13 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_7oAO4CdCEfCBMMMcC3P8wA" name="aws cloud a" type="_DyVxoB4EEfCqJrIHZKyI0Q" association="_7n120CdCEfCBMMMcC3P8wA"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_7oBdACdCEfCBMMMcC3P8wA" name="courier device (mobile)" type="_KBQxEBraEfC7Q48Dm7ny1g" association="_7n120CdCEfCBMMMcC3P8wA"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_KlpKgCdREfCU0pGCxTbhsg" memberEnd="_KlwfQCdREfCU0pGCxTbhsg _KlxtYCdREfCU0pGCxTbhsg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Klv4MCdREfCU0pGCxTbhsg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Klv4MSdREfCU0pGCxTbhsg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_KlwfQCdREfCU0pGCxTbhsg" name="aws cloud b" type="_DyVxoB4EEfCqJrIHZKyI0Q" association="_KlpKgCdREfCU0pGCxTbhsg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_KlxtYCdREfCU0pGCxTbhsg" name="restaurant device" type="_F1nQABraEfC7Q48Dm7ny1g" association="_KlpKgCdREfCU0pGCxTbhsg"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ntRlUBxLEfCfzatNm8B7Fg" name="NotificationService"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_PyMPwBxMEfCfzatNm8B7Fg" name="get order updates" client="_ntRlUBxLEfCfzatNm8B7Fg" supplier="_ko_U8AZSEfC1N-_hGzGCPQ"/>
