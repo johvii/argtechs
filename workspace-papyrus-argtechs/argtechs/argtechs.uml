@@ -638,14 +638,14 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_55YSEBraEfC7Q48Dm7ny1g" name="f-low (break this up more)" type="_Cme-ICBXEfCB_czr6gTfUA" association="_55XrABraEfC7Q48Dm7ny1g"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_55YSERraEfC7Q48Dm7ny1g" name="authentication provider server (external)" type="_eaNAIBraEfC7Q48Dm7ny1g" association="_55XrABraEfC7Q48Dm7ny1g"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Device" xmi:id="_DyVxoB4EEfCqJrIHZKyI0Q" name="AWS cloud A">
+      <packagedElement xmi:type="uml:Device" xmi:id="_DyVxoB4EEfCqJrIHZKyI0Q" name="AWS cloud B">
         <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_8vzP4CBcEfCB_czr6gTfUA" name="Arch Linux">
           <nestedClassifier xmi:type="uml:Node" xmi:id="_Xy5fYCFFEfCUyqCgsEyhnw" name="Business Database"/>
           <deployment xmi:type="uml:Deployment" xmi:id="_L-kxUCcaEfCPzLSMst3XLw" client="_8vzP4CBcEfCB_czr6gTfUA" supplier="_Apa28CcaEfCPzLSMst3XLw" deployedArtifact="_Apa28CcaEfCPzLSMst3XLw"/>
           <deployment xmi:type="uml:Deployment" xmi:id="_VaBYECcaEfCPzLSMst3XLw" client="_8vzP4CBcEfCB_czr6gTfUA" supplier="_NCgTgCcaEfCPzLSMst3XLw" deployedArtifact="_NCgTgCcaEfCPzLSMst3XLw"/>
         </nestedClassifier>
       </packagedElement>
-      <packagedElement xmi:type="uml:Device" xmi:id="_Cme-ICBXEfCB_czr6gTfUA" name="AWS cloud B">
+      <packagedElement xmi:type="uml:Device" xmi:id="_Cme-ICBXEfCB_czr6gTfUA" name="AWS cloud A">
         <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_LxpE0CanEfCGT5-5ntLSsQ" name="Arch Linux">
           <nestedClassifier xmi:type="uml:Node" xmi:id="_Tbc-ACFFEfCUyqCgsEyhnw" name="Order Database"/>
           <deployment xmi:type="uml:Deployment" xmi:id="_7BedYCchEfCPzLSMst3XLw" client="_LxpE0CanEfCGT5-5ntLSsQ" supplier="_QQkjQCcgEfCPzLSMst3XLw" deployedArtifact="_QQkjQCcgEfCPzLSMst3XLw"/>
@@ -733,6 +733,13 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Artifact" xmi:id="_QQkjQCcgEfCPzLSMst3XLw" name="OrderController" fileName="">
         <manifestation xmi:type="uml:Manifestation" xmi:id="_HlXbwCciEfCPzLSMst3XLw" client="_QQkjQCcgEfCPzLSMst3XLw" supplier="_wrtBABprEfCtmK4gFCUo5g" utilizedElement="_wrtBABprEfCtmK4gFCUo5g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_7n120CdCEfCBMMMcC3P8wA" memberEnd="_7oAO4CdCEfCBMMMcC3P8wA _7oBdACdCEfCBMMMcC3P8wA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7n_n0CdCEfCBMMMcC3P8wA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7n_n0SdCEfCBMMMcC3P8wA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_7oAO4CdCEfCBMMMcC3P8wA" name="aws cloud a" type="_DyVxoB4EEfCqJrIHZKyI0Q" association="_7n120CdCEfCBMMMcC3P8wA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_7oBdACdCEfCBMMMcC3P8wA" name="courier device (mobile)" type="_KBQxEBraEfC7Q48Dm7ny1g" association="_7n120CdCEfCBMMMcC3P8wA"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ntRlUBxLEfCfzatNm8B7Fg" name="NotificationService"/>
